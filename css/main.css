@@ -5,3 +5,20 @@ body {
     color: #666666;
     background-color: #ffffff
 }
+
+
+.organizer-name {
+}
+
+.organizer-name a {
+    border-bottom: 1px solid #ccc;
+    text-decoration: none;
+    color: inherit
+}
+
+.organizer-name h6 {
+  margin: 4px 0;
+  font-weight: 300;
+  font-size: 11px;
+}
+
