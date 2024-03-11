@@ -3,7 +3,8 @@ body {
     font-size: 13px;
     line-height: 1.846;
     color: #666666;
-    background-color: #ffffff
+    background-color: #ffffff;
+    margin-bottom: 20px;
 }
 
 
@@ -20,5 +21,9 @@ body {
   margin: 4px 0;
   font-weight: 300;
   font-size: 11px;
+}
+
+.invited-speaker-name {
+  margin: 8px 0;
 }
 
