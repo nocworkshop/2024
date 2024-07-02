@@ -36,6 +36,7 @@ nav a:hover {
 }
 
 .h1-bullet {
+  margin-top: 15px;
   border-left: 10px solid #0699ca;
   padding-left: 10px;
 }
