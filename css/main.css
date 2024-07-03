@@ -50,6 +50,7 @@ a.anchor {
 
 nav .navbar-title {
   margin-left: 40px;
+  margin-right: 120px;
   font-size: 1.7rem;
   color: #0699ca;
   font-weight: 800;
@@ -65,10 +66,6 @@ nav .navbar-title > a:hover {
   color: #0699ca;
   text-decoration: none !important;
   font-weight: 800 !important;
-}
-
-nav .navbar-title > img {
-  border-radius: 2px;
 }
 
 nav .navbar-right-log > img {
