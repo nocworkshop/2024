@@ -67,6 +67,14 @@ nav .navbar-title > a:hover {
   font-weight: 800 !important;
 }
 
+nav .navbar-title > img {
+  border-radius: 2px;
+}
+
+nav .navbar-right-log > img {
+  margin-right: 50px;
+}
+
 ul.topic-list li {
   margin-left: 20px;
   list-style-type: none;
