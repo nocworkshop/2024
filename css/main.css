@@ -30,6 +30,10 @@ span.highlight1 {
   font-size: 2.5rem;
 }
 
+nav a {
+  font-weight: 700 !important;
+}
+
 nav a:hover {
     color: #0699ca !important;
     font-weight: 700 !important;
