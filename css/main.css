@@ -76,6 +76,17 @@ nav .navbar-right-log > img {
   margin-right: 50px;
 }
 
+.video-container {
+  text-align: center;
+  padding-bottom: 10px;
+  padding-top: 20px;
+}
+
+.video-container video {
+  border-radius: 10px;
+  border: 5px solid #ffffff;
+}
+
 ul.topic-list li {
   margin-left: 20px;
   list-style-type: none;
