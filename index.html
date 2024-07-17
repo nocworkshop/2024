@@ -3,8 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <title>IROS 2024: Workshop on Nonverbal Cues for Human-Robot Cooperative Intelligence</title>
-    
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"> 
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"> 
     <!--  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"> --> 
     <link rel="stylesheet" type="text/css" href="css/main.css"> 
 </head>
@@ -22,19 +23,22 @@
         <div class="collapse navbar-collapse flex-grow-0" id="navbarSupportedContent">
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link" href="#abstract">Abstract</a>
-                </li>
+                    <a class="nav-link" href="#">Home</a>
+                </li>                
                 <li class="nav-item">
-                    <a class="nav-link" href="#topics">Topics Covered</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#submissions">Submissions</a>
+                    <a class="nav-link" href="#submissions">Call for Papers</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#review">Review Timeline</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#schedule">Schedule</a>
+                    <a class="nav-link" href="#schedule">Program</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#speakers">Speakers</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#motivation">Motivation</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#organizers">Organizers</a>
@@ -49,94 +53,80 @@
 <div class="container" style="max-width: 960px; margin-top: 120px;">
     <div class="jumbotron">
         <h1 class="anchor"><span class="highlight1">Workshop</span> on Nonverbal Cues for Human-Robot Cooperative Intelligence</h1>
-        <img src="images/banner.png">
-        <p></p>
+        <div class="row">
+            <div class="col-xl-6">
+                <img src="images/banner_iros.png" style="width:95%; margin-top: 20px; margin-left: 20px;" >
+                <div class="banner-info  shadow">
+                    <div class="info-entry">
+                        <div class="row">
+                            <div class="col-xl-1" style="margin-right: 8px;">
+                                <i class="fa fa-location-dot" style="font-size: 2.7rem; margin-top: 10px;"></i>
+                            </div>
+                            <div class="col-xl-9">
+                                Abu Dhabi National Exhibition Centre (ADNEC), UAE
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xl-6 info-entry">
+                            <i class="fa fa-calendar"></i>
+                            14th October
+                        </div>
+                        <div class="col-xl-6 info-entry">
+                            <i class="fa fa-clock"></i>
+                            09:00 to 13:00
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-6">
+                <img src="images/banner_art.png">                
+            </div>
+        </div>
+        
+        <!-- <p></p> -->
     </div>
-
-    <div class="row">
+    <!-- <div class="row">
         <div class="col-xs-12">
             <a class="anchor" id="abstract"></a>
             <h2 class="h1-bullet">Abstract</h2>
         </div>
+    </div> -->
+    <!-- <div class="row mb-4">
+        <div class="col-xs-12">
+            
+        </div>
+    </div> -->
+
+    <div class="row">
+        <div class="col-xs-12">
+            <a class="anchor" id="topics"></a>
+            <h2 class="h1-bullet">About the Workshop</h2>
+        </div>
     </div>
     <div class="row mb-4">
         <div class="col-xs-12">
-            <p class="mb-0">
-                Humans can perceive social cues and the interaction context of another human to infer
-                the internal states including cognitive and emotional states, empathy, and intention. This
-                unique ability to infer internal states leads to effective social interaction between humans
-                desirable in many intelligent systems such as collaborative and social robots, and humanmachine
-                interaction systems. However, it is challenging for machines to perceive human
-                states under noisy real-world settings, which are usually measured by noninvasive sensors.
-                Recent works investigating the potential solutions for the estimation of human states under controlled
-                conditions using facial features with the off-the-shelf camera by leveraging
-                deep learning methods. This workshop aims to bring interdisciplinary researchers across
-                computer vision, artificial intelligence, robotics, and human-computer interaction together
-                to share current research achievements and discuss future research directions for human
-                behavior and state understanding, and their potential application, especially in the wild
-                environment. Specifically, we are interested in cognition-aware computing by integrating
-                environment contexts and multi-modal nonverbal social cues not limited to gaze interaction, body
-                language and para language. More importantly, we extend multi-modal human
-                behavior research to infer the internal states of humans. This is a challenging problem yet
-                important to realize effective interaction between humans and intelligent systems.
+            
+
+                <!-- <div class="video-container">                    
+                    <video class="shadow-lg" src="videos/v1.mp4#t=20,180" controls width="700px"></video>
+                </div> -->
+
+            <p style="text-indent: 50px;">This workshop is dedicated to discussing computational methods for
+                sensing and recognition of nonverbal cues and internal states in the wild to realize cooperative intelligence between humans and
+                intelligent systems. We gather researchers from different expertise, yet having the common goal,
+                motivation, and resolve to explore and tackle this delicate issue considering the practicality of
+                industrial applications. We are calling for papers to discuss novel methods to realize human-robot
+                cooperative intelligence by sensing and understanding humans’ behavior, internal states, and to generate
+                empathetic interactions. 
             </p>
             <p class="mb-0"><b>Keywords:</b> "Human: Face, gaze, body, pose, gesture, movement, attention,
                 cognitivestate, emotion state, intention, empathy, Environment: Object"
             </p>
             <p class="mb-0"><b>Secondary subject:</b> "Human-Robot cooperative intelligence", "Nonverbal cues
                 recognition from audiovisual", "Human internal state inference from multi-modality", "Vision
-                applications and systems", "Human-Object interaction and scene understanding"</p>
-        </div>
-    </div>
-
-    <div class="row">
-        <div class="col-xs-12">
-            <a class="anchor" id="topics"></a>
-            <h2 class="h1-bullet">Topics Covered</h2>
-        </div>
-    </div>
-    <div class="row mb-4">
-        <div class="col-xs-12">
-            <p class="mb-0">It is desirable for intelligent systems like robots, virtual agents, human-machine
-                interfaces to collaborate and interact seamlessly with humans in the era of Industry 5.0, where
-                intelligent systems must work alongside humans to perform a variety of tasks anywhere at home,
-                factories, offices, transit, etc. The underlying technologies to achieve efficient and intelligent
-                collaboration between humans and ubiquitous intelligent systems can be realized by cooperative
-                intelligence, spanning interdisciplinary studies between robotics, AI,
-                human-robot and -computer interaction, computer vision, cognitive science, etc. </p>
-            <p class="mb-0">&nbsp;&nbsp;&nbsp;&nbsp;One of the main considerations to achieve cooperative intelligence
-                between humans and
-                intelligent systems is to enable everyone and everything to know each other well, like how humans can
-                trust or infer the implicit internal states like intention, emotion, and cognitive states of each other.
-                The importance of empathy to facilitate human-robot interaction has been highlighted in previous studies
-                . However, it is difficult for intelligent systems to estimate the internal states of humans
-                because they are dependent on the complex social dynamics and environment contexts. This requires
-                intelligent systems to be capable of sensing the multi-modal inputs,
-                reasoning the underlying abstract knowledge, and generating the corresponding responses to collaborate
-                and interact with humans.</p>
-            <p class="mb-0"> &nbsp;&nbsp;&nbsp;&nbsp;There are many studies on estimating internal states of humans
-                through measurements of wearables and
-                non-invasive sensors, but it would be difficult to implement these solutions in the wild because of the
-                additional sensors to be worn by humans. One promising solution is to use audiovisual data like
-                nonverbal behavior cues consisting of gaze interaction, facial expression, body language and
-                paralanguage to infer the internal states of humans. Researchers in cognitive and social psychology have
-                long advocated that these nonverbal behaviors are subconsciously generated by humans and reflect the
-                internal states of humans under different contexts. Some salient examples are the studies on emotion
-                recognition using facial and body language in controlled environment. It remains an open question for
-                intelligent systems to sense and recognize nonverbal cues and reason the rich underlying internal states
-                of humans in the wild and noisy environments. </p>
-
-                <!-- <div class="video-container">                    
-                    <video class="shadow-lg" src="videos/v1.mp4#t=20,180" controls width="700px"></video>
-                </div> -->
-
-            <p class="mb-0">&nbsp;&nbsp;&nbsp;&nbsp;This workshop is dedicated to discussing computational methods for
-                sensing and recognition of nonverbal cues and internal states in the wild to realize cooperative intelligence between humans and
-                intelligent systems. We gather researchers from different expertise, yet having the common goal,
-                motivation, and resolve to explore and tackle this delicate issue considering the practicality of
-                industrial applications. We are calling for papers to discuss novel methods to realize human-robot
-                cooperative intelligence by sensing and understanding humans’ behavior, internal states, and to generate
-                empathetic interactions. </p>
+                applications and systems", "Human-Object interaction and scene understanding"
+            </p>
             <ul class="topic-list">
                 <li>Human internal state inference, e.g., cognitive, emotional, intention models.</li>
                 <li>Recognition of nonverbal cues, e.g., gaze and attention, body language, para-language.</li>
@@ -157,29 +147,50 @@
        
     </div>
 
+    <div class="row mb-4 sponsors-section">
+        <div class="col-xl-3 mb-4">
+            <h2 class="h1-bullet">Sponsors</h2>
+            <img src="images/hrijp_log.png" class="spons-logo">
+            <img src="images/coro_logo.png" class="spons-logo">
+        </div>
+        <div class="col-xl-1 mb-4"></div>
+        <div class="col-xl-8 mb-4">
+            <h2 class="h1-bullet">Organizers</h2>
+            <img src="images/u-stuttgart.png" class="org-logo">
+            <img src="images/u-tokyo_ins.png" class="org-logo">
+            <img src="images/u-tokyo_sci.png" class="org-logo">
+            <img src="images/kth_royal.png" class="org-logo">
+            <img src="images/eth_zurich.png" style="width: 200px !important; margin-top: 35px;" class="org-lg-logo">
+            <img src="images/tu_delf.jpg"  class="org-lg-logo">
+        </div>
+    </div>
+
     <div class="row">
         <div class="col-xs-12">
             <a class="anchor" id="submissions"></a>
-            <h2 class="h1-bullet">Submissions</h2>
+            <h2 class="h1-bullet">Call for Papers</h2>
         </div>
     </div>
     <div class="col-xs-12 content">
         <p>We invite authors to submit unpublished papers
         (<a target="_blank" href="https://www.ieee.org/conferences/publishing/templates.html">IEEE format</a>) 
         to our workshop, to be presented at a workshop session upon acceptance. 
-        Submissions will undergo a double-blind review process and must be submitted via EasyChair. 
-        Three-way presentation approach is designed to foster active participation </p>
-        <ul class="topic-list">
-            <li>Spotlight talks (7 mins talk + 3 mins Q&A) </li>
-            <li>In-person posters for in-depth discussions</li>
-            <li>Short pre-recorded videos (about 3 minutes) on the workshop page</li>
-        </ul>        
+        Submissions will undergo a double-blind review process and must be submitted via EasyChair. </p>
     </div>
     <div class="col-xs-12">
         <div class="submition-section">
             <a target="_blank" href="https://easychair.org/my/conference?conf=iros2024workshoponno">Submit papers on EasyChair</a>
         </div>
     </div>
+    <div class="col-xs-12">
+        Accepted papers should be presented in three-way presentation approach to foster active participation 
+        <ul class="topic-list">
+            <li>Spotlight talks (7 mins talk + 3 mins Q&A) </li>
+            <li>In-person posters for in-depth discussions (maximum size of 4ft x 4ft or 122 cm x 122 cm)</li>
+            <li>Short pre-recorded videos (about 3 minutes) on the workshop page</li>
+        </ul>        
+    </div>
+  
 
     <div class="row">
         <div class="col-xs-12">
@@ -190,17 +201,17 @@
     <div class="row mb-4">
         <div class="col-xs-12">
             <ul class="timeline">
-                <li>
+                <!-- <li>
                     <span class="date-label">June 18, 2024 PST</span>
                     <p>Notification of workshop acceptance</p>
                 </li>
                 <li>
                     <span class="date-label">June 15, 2024 PST</span>
                     <p>Submission of final title and abstract to IROS 2024</p>
-                </li>
+                </li> -->
                 <li>
                     <span class="date-label">July 1, 2024 PST</span>
-                    <p>Workshop webpage open with submission </p>
+                    <p>Workshop web page open with submission </p>
                 </li>
                 <li>
                     <span class="date-label">July 31, 2024 PST</span>
@@ -235,7 +246,7 @@
     <div class="row">
         <div class="col-xs-12">
             <a class="anchor" id="schedule"></a>
-            <h2 class="h1-bullet">Schedule</h2>
+            <h2 class="h1-bullet">Program</h2>
         </div>
     </div>
     <div class="row mb-4">
@@ -295,7 +306,7 @@
 
     <div class="row">
         <div class="col-xs-12">
-            <a class="anchor" id="invited_speakers"></a>
+            <a class="anchor" id="speakers"></a>
             <h2 class="h1-bullet">Invited Speakers</h2>
         </div>
     </div>
@@ -348,6 +359,67 @@
                     techniques. Jean-Marc has not confirmed his attendance as a speaker. -->
                 </div>
             </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-xs-12">
+            <a class="anchor" id="motivation"></a>
+            <h2 class="h1-bullet">Motivation and Background</h2>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-xs-12">
+            <p style="text-indent: 50px;">Humans can perceive social cues and the interaction context of another human to infer
+            the internal states including cognitive and emotional states, empathy, and intention. This
+            unique ability to infer internal states leads to effective social interaction between humans
+            desirable in many intelligent systems such as collaborative and social robots, and humanmachine
+            interaction systems. However, it is challenging for machines to perceive human
+            states under noisy real-world settings, which are usually measured by noninvasive sensors.
+            Recent works investigating the potential solutions for the estimation of human states under controlled
+            conditions using facial features with the off-the-shelf camera by leveraging
+            deep learning methods. This workshop aims to bring interdisciplinary researchers across
+            computer vision, artificial intelligence, robotics, and human-computer interaction together
+            to share current research achievements and discuss future research directions for human
+            behavior and state understanding, and their potential application, especially in the wild
+            environment. Specifically, we are interested in cognition-aware computing by integrating
+            environment contexts and multi-modal nonverbal social cues not limited to gaze interaction, body
+            language and para language. More importantly, we extend multi-modal human
+            behavior research to infer the internal states of humans. This is a challenging problem yet
+            important to realize effective interaction between humans and intelligent systems. </p>
+
+            <p style="text-indent: 50px;">It is desirable for intelligent systems like robots, virtual agents, human-machine
+            interfaces to collaborate and interact seamlessly with humans in the era of Industry 5.0, where
+            intelligent systems must work alongside humans to perform a variety of tasks anywhere at home,
+            factories, offices, transit, etc. The underlying technologies to achieve efficient and intelligent
+            collaboration between humans and ubiquitous intelligent systems can be realized by cooperative
+            intelligence, spanning interdisciplinary studies between robotics, AI,
+            human-robot and -computer interaction, computer vision, cognitive science, etc. </p>
+
+            <p style="text-indent: 50px;">One of the main considerations to achieve cooperative intelligence
+            between humans and
+            intelligent systems is to enable everyone and everything to know each other well, like how humans can
+            trust or infer the implicit internal states like intention, emotion, and cognitive states of each other.
+            The importance of empathy to facilitate human-robot interaction has been highlighted in previous studies
+            . However, it is difficult for intelligent systems to estimate the internal states of humans
+            because they are dependent on the complex social dynamics and environment contexts. This requires
+            intelligent systems to be capable of sensing the multi-modal inputs,
+            reasoning the underlying abstract knowledge, and generating the corresponding responses to collaborate
+            and interact with humans.</p>
+
+            <p style="text-indent: 50px;"> There are many studies on estimating internal states of humans
+            through measurements of wearables and
+            non-invasive sensors, but it would be difficult to implement these solutions in the wild because of the
+            additional sensors to be worn by humans. One promising solution is to use audiovisual data like
+            nonverbal behavior cues consisting of gaze interaction, facial expression, body language and
+            paralanguage to infer the internal states of humans. Researchers in cognitive and social psychology have
+            long advocated that these nonverbal behaviors are subconsciously generated by humans and reflect the
+            internal states of humans under different contexts. Some salient examples are the studies on emotion
+            recognition using facial and body language in controlled environment. It remains an open question for
+            intelligent systems to sense and recognize nonverbal cues and reason the rich underlying internal states
+            of humans in the wild and noisy environments. </p>
+
         </div>
     </div>
 

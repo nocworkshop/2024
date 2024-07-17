@@ -76,6 +76,30 @@ nav .navbar-right-log > img {
   margin-right: 50px;
 }
 
+.banner-info {
+  margin-left: 40px;
+  margin-top: 25px;
+  font-weight: 700;
+  font-size: 15pt;
+  color: #0699ca;
+  padding: 5px;
+  padding-left: 15px;
+  /* border-top: #2b87a5 dashed 2px;
+  border-bottom: #2b87a5 dashed 2px; */
+  border: solid #a6dff1 1px;
+  border-radius: 8px;
+}
+
+.banner-info i {
+  margin-right: 10px;
+  color: #fb9363;
+  font-size: 1.5rem;
+}
+
+.banner-info .info-entry {
+  margin-bottom: 10px;
+}
+
 .video-container {
   text-align: center;
   padding-bottom: 10px;
@@ -85,6 +109,21 @@ nav .navbar-right-log > img {
 .video-container video {
   border-radius: 10px;
   border: 5px solid #ffffff;
+}
+
+.sponsors-section .spons-logo {
+  margin: 20px;
+  width: 180px;
+}
+
+.sponsors-section .org-logo {
+  margin: 20px;
+  width: 110px;
+}
+
+.sponsors-section .org-lg-logo {
+  margin: 20px;
+  width: 150px;
 }
 
 ul.topic-list li {
