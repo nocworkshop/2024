@@ -348,10 +348,12 @@ div.poster div.btn-group > button {
   pointer-events: none;
 }
 
+/*
 div.poster div.btn-group > button:first-of-type {
   background: #0699ca;
   color: #fff;
 }
+*/
 
 .interactive-session > span {
   display: block
