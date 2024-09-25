@@ -405,3 +405,7 @@ div.poster div.btn-group > button:first-of-type {
 #year-header ul li a:hover {
   transition: .5s;
 }
+
+.navbar > div:nth-of-type(1) {
+  justify-content: center;
+}
